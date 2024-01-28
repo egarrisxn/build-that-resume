@@ -26,7 +26,7 @@ const Projects = ({ propData }: ProjectsProps) => {
           {title}
         </Typography>
       </div>
-      <ul className="flex flex-col-reverse">
+      <ul className="flex flex-col">
         {projectsList.map((item: projectsList) => (
           <Card placeholder="Card" key={item.name} className="mb-2">
             <CardBody placeholder="Card Body">
