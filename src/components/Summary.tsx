@@ -21,7 +21,6 @@ const Summary = ({ propData }: Summaryprops) => {
             placeholder="Summary Title"
             color="blue-gray"
             textGradient
-            className="lg:text-4xl"
           >
             {title}
           </Typography>

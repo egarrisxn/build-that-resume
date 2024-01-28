@@ -18,7 +18,6 @@ const Experience = ({ propData }: ExperienceProps) => {
           placeholder="Experience"
           color="blue-gray"
           textGradient
-          className="lg:text-4xl"
         >
           {propData.title}
         </Typography>

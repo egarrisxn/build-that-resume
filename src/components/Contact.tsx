@@ -51,7 +51,6 @@ const Contact = ({ propData }: ContactProps) => {
           placeholder="Contact Title"
           color="blue-gray"
           textGradient
-          className="lg:text-4xl"
         >
           {title}
         </Typography>
