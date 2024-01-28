@@ -1,7 +1,9 @@
-export default function BuildThatResume() {
+import Resume from "../components/(Resume)/Resume";
+
+export default function Home() {
   return (
     <main>
-      <div>Build That Resume</div>
+      <Resume />
     </main>
   );
 }
