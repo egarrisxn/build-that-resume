@@ -1,5 +1,5 @@
-"use client";
-import { Typography } from "@material-tailwind/react";
+import Link from "next/link";
+import { Typography } from "./Material-Tailwind";
 import {
   IdentificationIcon,
   HomeIcon,
@@ -23,19 +23,19 @@ const Contact = ({ propData }: ContactProps) => {
   const iconFinder = (icon: string) => {
     switch (icon) {
       case "Email":
-        return <EnvelopeIcon className="h-4 w-4 text-blue-500" />;
+        return <EnvelopeIcon className="h-4 w-4 text-blue-700" />;
       case "Address":
-        return <MapPinIcon className="h-4 w-4 text-blue-500" />;
+        return <MapPinIcon className="h-4 w-4 text-blue-700" />;
       case "Phone":
-        return <PhoneIcon className="h-4 w-4 text-blue-500" />;
+        return <PhoneIcon className="h-4 w-4 text-blue-700" />;
       case "Website":
-        return <HomeIcon className="h-4 w-4 text-blue-500" />;
+        return <HomeIcon className="h-4 w-4 text-blue-700" />;
       case "Blog":
-        return <BookOpenIcon className="h-4 w-4 text-blue-500" />;
+        return <BookOpenIcon className="h-4 w-4 text-blue-700" />;
       case "Linkedin":
-        return <GlobeAltIcon className="h-4 w-4 text-blue-500" />;
+        return <GlobeAltIcon className="h-4 w-4 text-blue-700" />;
       case "Github":
-        return <GlobeAltIcon className="h-4 w-4 text-blue-500" />;
+        return <GlobeAltIcon className="h-4 w-4 text-blue-700" />;
 
       default:
         return null;
@@ -44,7 +44,7 @@ const Contact = ({ propData }: ContactProps) => {
 
   return (
     <section>
-      <div className="flex flex-row items-center gap-1">
+      <div className="flex flex-row items-center gap-1 mb-1">
         <IdentificationIcon className="h-8 w-8" />
         <Typography
           variant="h4"
@@ -59,9 +59,16 @@ const Contact = ({ propData }: ContactProps) => {
         {contactInfo.map((item) => (
           <li className="flex flex-row items-center gap-1 ml-1" key={item.id}>
             {iconFinder(item.icon ? item.icon : "")}
-            <Typography variant="h6" placeholder="Contact List" color="gray">
-              {item.value}
-            </Typography>
+            <Link href={item.href} target="_blank">
+              <Typography
+                variant="paragraph"
+                placeholder="Contact List"
+                color="gray"
+                className="hover:text-blue-500"
+              >
+                {item.value}
+              </Typography>
+            </Link>
           </li>
         ))}
       </ul>

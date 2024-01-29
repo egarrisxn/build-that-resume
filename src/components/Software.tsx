@@ -1,5 +1,4 @@
-"use client";
-import { Typography, List, ListItem } from "@material-tailwind/react";
+import { Typography, List, ListItem } from "./Material-Tailwind";
 import { ComputerDesktopIcon } from "@heroicons/react/24/outline";
 
 type SoftwareProps = {
@@ -14,7 +13,7 @@ const Software = ({ propData }: SoftwareProps) => {
 
   return (
     <section>
-      <div className="flex flex-row items-center gap-1">
+      <div className="flex flex-row items-center gap-1 mb-1">
         <ComputerDesktopIcon className="h-8 w-8" />
         <Typography
           variant="h4"
@@ -28,7 +27,11 @@ const Software = ({ propData }: SoftwareProps) => {
       <List placeholder="Software List">
         {softwareList.map((item: softwareList) => (
           <ListItem placeholder="Software Items" key={item.id}>
-            <Typography variant="h6" placeholder="Software Text" color="gray">
+            <Typography
+              variant="small"
+              placeholder="Software Text"
+              color="gray"
+            >
               {item.title}
             </Typography>
           </ListItem>

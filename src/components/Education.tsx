@@ -1,5 +1,4 @@
-"use client";
-import { Typography, Card, CardBody } from "@material-tailwind/react";
+import { Typography, Card, CardBody } from "./Material-Tailwind";
 import { AcademicCapIcon } from "@heroicons/react/24/outline";
 
 type EducationProps = {
@@ -14,7 +13,7 @@ const Education = ({ propData }: EducationProps) => {
 
   return (
     <section>
-      <div className="flex flex-row items-center gap-1">
+      <div className="flex flex-row items-center gap-1 mb-1">
         <AcademicCapIcon className="h-8 w-8" />
         <Typography
           variant="h4"
@@ -32,7 +31,7 @@ const Education = ({ propData }: EducationProps) => {
               <div className="flex flex-row gap-2">
                 <div>
                   <Typography
-                    variant="h5"
+                    variant="h6"
                     placeholder="Education Title"
                     color="gray"
                   >
@@ -41,13 +40,17 @@ const Education = ({ propData }: EducationProps) => {
                 </div>
               </div>
               <div>
-                <Typography variant="h6" placeholder="Education Degree">
+                <Typography
+                  variant="paragraph"
+                  placeholder="Education Degree"
+                  color="gray"
+                >
                   {item.degree}
                 </Typography>
               </div>
               <div>
                 <Typography
-                  variant="h6"
+                  variant="paragraph"
                   placeholder="Education Date"
                   color="gray"
                 >

@@ -40,6 +40,7 @@ type ResumeData = {
 type infoArr = {
   id: string;
   icon: string;
+  href: string;
   value: string;
 };
 
@@ -64,6 +65,7 @@ interface softwareList {
 interface projectsList {
   id: string;
   name: string;
+  value: string;
   href: string;
   desc: string;
 }

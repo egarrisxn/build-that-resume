@@ -1,5 +1,4 @@
-"use client";
-import { Typography } from "@material-tailwind/react";
+import { Typography } from "./Material-Tailwind";
 import { PencilSquareIcon } from "@heroicons/react/24/outline";
 
 interface Summaryprops {
@@ -14,7 +13,7 @@ const Summary = ({ propData }: Summaryprops) => {
   return (
     <section>
       <div className="flex flex-col gap-1">
-        <div className="flex flex-row items-center gap-1">
+        <div className="flex flex-row items-center gap-1 mb-1">
           <PencilSquareIcon className="h-8 w-8" />
           <Typography
             variant="h4"
@@ -26,7 +25,11 @@ const Summary = ({ propData }: Summaryprops) => {
           </Typography>
         </div>
         <div className="ml-1">
-          <Typography variant="h6" placeholder="Summary Body" color="gray">
+          <Typography
+            variant="paragraph"
+            placeholder="Summary Body"
+            color="gray"
+          >
             {desc}
           </Typography>
         </div>

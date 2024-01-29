@@ -1,6 +1,5 @@
-"use client";
 import Link from "next/link";
-import { Typography, Card, CardBody } from "@material-tailwind/react";
+import { Typography, Card, CardBody } from "./Material-Tailwind";
 import { WindowIcon } from "@heroicons/react/24/outline";
 
 type ProjectsProps = {
@@ -15,7 +14,7 @@ const Projects = ({ propData }: ProjectsProps) => {
 
   return (
     <section>
-      <div className="flex flex-row items-center gap-1">
+      <div className="flex flex-row items-center gap-1 mb-1">
         <WindowIcon className="h-8 w-8" />
         <Typography
           variant="h4"
@@ -30,20 +29,30 @@ const Projects = ({ propData }: ProjectsProps) => {
         {projectsList.map((item: projectsList) => (
           <Card placeholder="Card" key={item.name} className="mb-2">
             <CardBody placeholder="Card Body">
-              <div className="flex flex-row mb-2">
+              <div className="mb-2">
+                <Typography
+                  variant="h5"
+                  placeholder="Project Title"
+                  color="gray"
+                >
+                  {item.name}
+                </Typography>
+              </div>
+              <div className="mb-2 ml-4">
                 <Link href={item.href} target="_blank">
                   <Typography
-                    variant="h5"
-                    placeholder="Project Title"
+                    variant="lead"
+                    placeholder="Project Href"
                     color="gray"
+                    className="hover:text-blue-500"
                   >
-                    {item.name}
+                    {item.value}
                   </Typography>
                 </Link>
               </div>
-              <div className="list-disc mb-2 ml-4">
+              <div className="mb-2 ml-12">
                 <Typography
-                  variant="h6"
+                  variant="paragraph"
                   placeholder="Project Description"
                   color="gray"
                 >

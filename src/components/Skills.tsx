@@ -1,5 +1,4 @@
-"use client";
-import { Typography, List, ListItem } from "@material-tailwind/react";
+import { Typography, List, ListItem } from "./Material-Tailwind";
 import { WrenchScrewdriverIcon } from "@heroicons/react/24/outline";
 
 type SkillsProps = {
@@ -14,7 +13,7 @@ const Skills = ({ propData }: SkillsProps) => {
 
   return (
     <section>
-      <div className="flex flex-row items-center gap-1">
+      <div className="flex flex-row items-center gap-1 mb-1">
         <WrenchScrewdriverIcon className="h-8 w-8" />
         <Typography
           variant="h4"
@@ -28,7 +27,7 @@ const Skills = ({ propData }: SkillsProps) => {
       <List placeholder="Skills List">
         {skillList.map((item: skillList) => (
           <ListItem placeholder="Skill Items" key={item.id}>
-            <Typography variant="h6" placeholder="Skills Text" color="gray">
+            <Typography variant="small" placeholder="Skills Text" color="gray">
               {item.title}
             </Typography>
           </ListItem>

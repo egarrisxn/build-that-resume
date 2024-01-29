@@ -1,5 +1,4 @@
-"use client";
-import { Typography, Avatar } from "@material-tailwind/react";
+import { Typography, Avatar } from "./Material-Tailwind";
 
 interface HeadingProps {
   propData: {
@@ -35,11 +34,13 @@ const Header = ({ propData }: HeadingProps) => {
       </div>
       <div>
         <Avatar
-          variant="rounded"
           src="/homepageme.png"
           alt="Avatar Image"
+          withBorder={true}
+          color="blue"
+          size="xxl"
           placeholder="Avatar Image"
-          className="w-32 h-32 lg:w-64 lg:h-64"
+          className="lg:w-64 lg:h-64 shadow-xl"
         />
       </div>
     </header>

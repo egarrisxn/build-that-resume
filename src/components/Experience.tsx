@@ -1,5 +1,4 @@
-"use client";
-import { Typography, Card, CardBody } from "@material-tailwind/react";
+import { Typography, Card, CardBody } from "./Material-Tailwind";
 import { BriefcaseIcon } from "@heroicons/react/24/outline";
 interface ExperienceProps {
   propData: {
@@ -11,7 +10,7 @@ interface ExperienceProps {
 const Experience = ({ propData }: ExperienceProps) => {
   return (
     <section>
-      <div className="flex flex-row items-center gap-1">
+      <div className="flex flex-row items-center gap-1 mb-1">
         <BriefcaseIcon className="h-8 w-8" />
         <Typography
           variant="h4"
@@ -42,7 +41,7 @@ const Experience = ({ propData }: ExperienceProps) => {
                   <div key={item.id}>
                     <div className="flex flex-row mb-2 ml-4">
                       <Typography
-                        variant="h6"
+                        variant="lead"
                         placeholder="Job Title & Duration"
                         color="gray"
                       >
@@ -55,7 +54,7 @@ const Experience = ({ propData }: ExperienceProps) => {
                       {item.desc.map((des: title) => (
                         <li className="list-disc mb-2 ml-12" key={des.id}>
                           <Typography
-                            variant="h6"
+                            variant="paragraph"
                             placeholder="Job Description"
                             color="gray"
                           >
