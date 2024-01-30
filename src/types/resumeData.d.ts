@@ -1,96 +1,112 @@
 type ResumeData = {
   heading: {
+    title?: string;
     name: string;
     position: string;
-  };
-  contact: {
-    title: string;
-    contactInfo: Array<infoArr>;
+    avatar: string;
   };
   summary: {
     title: string;
     desc: string;
   };
-  skills: {
+  contact: {
     title: string;
-    skillList: Array<skillList>;
+    contactList: Array<ContactList>;
   };
-  software: {
+  experience: {
     title: string;
-    softwareList: Array<softwareList>;
+    experienceList: Array<ExperienceList>;
+    detailList: Array<DetailList>;
+    dutyList: Array<DutyList>;
   };
   projects: {
     title: string;
-    projectsList: Array<projectsList>;
+    projectList: Array<ProjectList>;
+  };
+  skills: {
+    title: string;
+    skillList: Array<SkillList>;
+  };
+  software: {
+    title: string;
+    softwareList: Array<SoftwareList>;
   };
   education: {
     title: string;
-    educationList: Array<educationList>;
+    educationList: Array<EducationList>;
   };
   hobbies: {
     title: string;
-    hobbyList: Array<hobbyList>;
-  };
-  Experience: {
-    title?: string;
-    companies?: Array<companies>;
+    hobbyList: Array<HobbyList>;
   };
 };
 
-type infoArr = {
+interface ContactList {
   id: string;
   icon: string;
   href: string;
-  value: string;
-};
-
-interface title {
-  id: string;
-  title: string;
-  href: string;
+  value: Array<string>;
 }
 
-interface skillList {
-  id: string;
-  title: string;
-  value: Array<title>;
-}
-
-interface softwareList {
-  id: string;
-  title: string;
-  value: Array<title>;
-}
-
-interface projectsList {
+interface ProjectList {
   id: string;
   name: string;
-  value: string;
   href: string;
+  hrefTitle: string;
   desc: string;
+  value: Array<string>;
 }
 
-interface educationList {
+interface SkillList {
+  id: string;
   name: string;
+  desc?: string;
+  value: Array<string>;
+}
+
+interface SoftwareList {
+  id: string;
+  name: string;
+  href: string;
+  desc?: string;
+  value: Array<string>;
+}
+
+interface EducationList {
+  id: string;
+  name: string;
+  location: string;
+  href: string;
   degree: string;
-  date: string;
-  desc: string;
-}
-
-interface hobbyList {
-  id: string;
-  title: string;
-  value: Array<title>;
-}
-
-interface companies {
-  id: string;
-  companyName: string;
-  address: string;
-  designations: Array<designations>;
-}
-
-interface designations extends title {
   duration: string;
-  desc: Array<title>;
+  desc?: string;
+  value: Array<string>;
+}
+
+interface HobbyList {
+  id: string;
+  name: string;
+  desc?: string;
+  value: Array<string>;
+}
+
+interface ExperienceList {
+  id: string;
+  name: string;
+  location: string;
+  detailList: Array<DetailList>;
+  dutyList: Array<DutyList>;
+}
+
+interface DetailList {
+  id: string;
+  position: string;
+  duration: string;
+  dutyList: Array<DutyList>;
+}
+
+interface DutyList {
+  id: string;
+  desc: string;
+  value: Array<string>;
 }
