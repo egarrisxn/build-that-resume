@@ -14,12 +14,13 @@ const Error = ({ error, reset }: ErrorProps) => {
   }, [error]);
 
   return (
-    <div className="flex flex-col items-center justify-center">
-      <p className="text-lg sm:text-2xl font-semibold pt-2">
-        Oh no! Something went wrong.
-      </p>
+    <div className="flex flex-col items-center justify-center min-h-screen">
+      <p className="text-2xl font-semibold pt-2">Something went wrong!</p>
       <br />
-      <button onClick={reset} className="px-8 bg-red-400">
+      <button
+        onClick={reset}
+        className="px-8 bg-blue-500 border-2 rounded-lg shadow-lg"
+      >
         Refresh
       </button>
     </div>

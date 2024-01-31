@@ -15,17 +15,18 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://build-that-resume.vercel.app/"),
   title: "Build That Resume!",
   description:
-    "A simple resume builder using Next.js, TailwindCSS, Material-Tailwind, & Typescript.",
+    "A simple resume built using Next.js, TailwindCSS, Material-Tailwind, & Typescript.",
   referrer: "origin-when-cross-origin",
-  keywords: ["Fill this in."],
-  // creator: { name: "Ethan Garrison", url: "https://github.com/EGARRISXN" },
+  keywords: [
+    "Resume , Builder , Next.js , TailwindCSS , Material-Tailwind , Typescript, React, Vercel, Ethan Garrison, Ethan, Garrison, Ethan Garrison Resume, Ethan-Garrison, Ethan-G, Ethan G Resume Builder, Build That Resume, build-that-resume, buildthatresume, build that resume, buildthatresume, build, that, resume, build that resume!, buildthatresume!",
+  ],
+  creator: "Ethan Garrrison",
   robots: {
     index: true,
     follow: true,
     googleBot: {
       index: true,
       follow: true,
-      "max-video-preview": -1,
       "max-image-preview": "large",
       "max-snippet": -1,
     },
@@ -37,15 +38,16 @@ export const metadata: Metadata = {
     description:
       "A simple resume builder using Next.js, TailwindCSS, Material-Tailwind, & Typescript.",
     url: "https://build-that-resume.vercel.app/",
-    siteName: "egxworld.net",
+    siteName: "Build That Resume!",
+    images: "/opengraph-image.png",
   },
   twitter: {
-    // cardType: "summary_large_image",
-    // handle: "@e____g_______",
-    site: "@e____g_______",
+    card: "summary_large_image",
     title: "Build That Resume!",
     description:
       "A simple resume builder using Next.js, TailwindCSS, Material-Tailwind, & Typescript.",
+    creator: "Ethan Garrison",
+    images: "/twitter-image.png",
   },
 };
 
