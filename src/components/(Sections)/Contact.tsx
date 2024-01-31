@@ -23,93 +23,58 @@ const Contact = ({ propData }: ContactProps) => {
   const iconFinder = (icon: string) => {
     switch (icon) {
       case "Email":
-        return (
-          <EnvelopeIcon
-            className="h-4 w-4 text-indigo-700"
-            aria-label="Email icon"
-          />
-        );
+        return <EnvelopeIcon className="h-4 w-4" aria-label="Email icon" />;
       case "Location":
-        return (
-          <MapPinIcon
-            className="h-4 w-4 text-indigo-700"
-            aria-label="Location icon"
-          />
-        );
+        return <MapPinIcon className="h-4 w-4" aria-label="Location icon" />;
       case "Phone":
-        return (
-          <PhoneIcon
-            className="h-4 w-4 text-indigo-700"
-            aria-label="Phone icon"
-          />
-        );
+        return <PhoneIcon className="h-4 w-4" aria-label="Phone icon" />;
       case "Website":
-        return (
-          <HomeIcon
-            className="h-4 w-4 text-indigo-700"
-            aria-label="Website icon"
-          />
-        );
+        return <HomeIcon className="h-4 w-4" aria-label="Website icon" />;
       case "Blog":
-        return (
-          <BookOpenIcon
-            className="h-4 w-4 text-indigo-700"
-            aria-label="Blog icon"
-          />
-        );
+        return <BookOpenIcon className="h-4 w-4" aria-label="Blog icon" />;
       case "Linkedin":
-        return (
-          <GlobeAltIcon
-            className="h-4 w-4 text-indigo-700"
-            aria-label="LinkedIn icon"
-          />
-        );
+        return <GlobeAltIcon className="h-4 w-4" aria-label="LinkedIn icon" />;
       case "Github":
-        return (
-          <GlobeAltIcon
-            className="h-4 w-4 text-indigo-700"
-            aria-label="GitHub icon"
-          />
-        );
+        return <GlobeAltIcon className="h-4 w-4" aria-label="GitHub icon" />;
       default:
         return null;
     }
   };
 
   return (
-    <section>
-      <div className="flex flex-row items-center gap-1 mb-1 border-b-2">
+    <section className="m-2 p-2 lg:m-4 lg:p-4">
+      <header className="flex items-center gap-1 border-b-2 mb-3">
         <IdentificationIcon
           className="h-8 w-8 text-yellow-800"
           aria-label="Contact icon"
         />
         <CustomTypography
           placeholder="Contact Title"
-          variant="h4"
+          variant="h3"
           color="indigo"
           textGradient
         >
           {title}
         </CustomTypography>
-      </div>
+      </header>
 
-      {contactList.map((item) => (
-        <ul className="flex items-center gap-1 ml-1" key={item.id}>
-          {iconFinder(item.icon ? item.icon : "")}
+      <ul className="ml-3">
+        {contactList.map((item) => (
+          <li className="flex items-center gap-1" key={item.id}>
+            {iconFinder(item.icon ? item.icon : "")}
 
-          <CustomTypography
-            placeholder="Contact Items"
-            variant="paragraph"
-            color="blue-gray"
-            textGradient
-            className="hover:text-blue-400 hover:underline hover:underline-offset-4"
-          >
-            <Link href={item.href} target="_blank">
-              {item.value}
-            </Link>
-          </CustomTypography>
-        </ul>
-      ))}
+            <CustomTypography
+              placeholder="Contact Items"
+              variant="paragraph"
+              className="text-blue-400 hover:text-blue-600 hover:underline hover:underline-offset-4"
+            >
+              <Link href={item.href} target="_blank">
+                {item.value}
+              </Link>
+            </CustomTypography>
+          </li>
+        ))}
+      </ul>
     </section>
   );
 };

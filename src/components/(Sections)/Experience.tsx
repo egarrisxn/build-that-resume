@@ -13,70 +13,56 @@ type ExperienceProps = {
 const Experience = ({ propData }: ExperienceProps) => {
   const { title, experienceList } = propData;
   return (
-    <section>
-      <div className="flex flex-row items-center gap-1 mb-1 border-b-2">
+    <section className="m-2 p-2 lg:m-4 lg:p-4">
+      <header className="flex items-center gap-1 border-b-2">
         <BriefcaseIcon
           className="h-8 w-8 text-yellow-800"
           aria-label="Experience Icon"
         />
+
         <CustomTypography
           placeholder="Experience Title"
-          variant="h4"
+          variant="h3"
           color="indigo"
           textGradient
         >
           {title}
         </CustomTypography>
-      </div>
-      <div className="flex flex-col">
+      </header>
+
+      <ul>
         {experienceList.map((company: ExperienceList) => (
           <CustomCard
             placeholder="Experience Card"
-            variant="gradient"
-            color="white"
-            shadow={true}
+            shadow={false}
             key={company.id}
-            className="m-2"
           >
-            <CustomCardBody
-              placeholder="Experience Card Body"
-              className="flex flex-col"
-            >
+            <CustomCardBody placeholder="Experience Card Body">
               <CustomTypography
-                placeholder="Company Name"
-                variant="h5"
-                color="indigo"
-                textGradient
-                className="text-center"
+                placeholder="Company Name & Location"
+                variant="h6"
+                color="black"
               >
-                {company.name}
+                {company.name} | {company.location}
               </CustomTypography>
-              <CustomTypography
-                placeholder="Company Location"
-                variant="h5"
-                color="indigo"
-                textGradient
-                className="text-center mb-2"
-              >
-                {company.location}
-              </CustomTypography>
+
               {company.detailList.map((job: DetailList) => (
                 <ul key={job.id}>
                   <CustomTypography
-                    placeholder="Job Position"
-                    variant="small"
+                    placeholder="Job Position & Duration"
+                    variant="h6"
                     color="blue-gray"
                     textGradient
-                    className="text-center mb-2"
                   >
                     {job.position} | {job.duration}
                   </CustomTypography>
+
                   {job.dutyList.map((duty: DutyList) => (
-                    <li className="list-disc ml-5" key={duty.id}>
+                    <li className="list-disc ml-4" key={duty.id}>
                       <CustomTypography
                         placeholder="Duty Description"
-                        variant="h6"
-                        color="gray"
+                        variant="paragraph"
+                        color="blue-gray"
                         textGradient
                       >
                         {duty.desc}
@@ -88,7 +74,7 @@ const Experience = ({ propData }: ExperienceProps) => {
             </CustomCardBody>
           </CustomCard>
         ))}
-      </div>
+      </ul>
     </section>
   );
 };

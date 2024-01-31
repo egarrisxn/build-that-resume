@@ -15,41 +15,30 @@ const Education = ({ propData }: EducationProps) => {
   const { title, educationList } = propData;
 
   return (
-    <section>
-      <div className="flex flex-row items-center gap-1 mb-1 border-b-2">
+    <section className="m-2 p-2 lg:m-4 lg:p-4">
+      <header className="flex items-center gap-1 border-b-2">
         <AcademicCapIcon
           className="h-8 w-8 text-yellow-800"
           aria-label="Education Icon"
         />
         <CustomTypography
           placeholder="Education Title"
-          variant="h4"
+          variant="h3"
           color="indigo"
           textGradient
         >
           {title}
         </CustomTypography>
-      </div>
-      <ul className="flex flex-col">
+      </header>
+
+      <ul>
         {educationList.map((item: EducationList) => (
-          <CustomCard
-            placeholder="Education Card"
-            variant="gradient"
-            color="white"
-            shadow={true}
-            key={item.id}
-            className="m-2"
-          >
-            <CustomCardBody
-              placeholder="Education Card Body"
-              className="flex flex-col"
-            >
+          <CustomCard placeholder="Education Card" shadow={false} key={item.id}>
+            <CustomCardBody placeholder="Education Card Body">
               <CustomTypography
                 placeholder="Education Degree"
-                variant="h5"
-                color="indigo"
-                textGradient
-                className="mb-2"
+                variant="h6"
+                color="black"
               >
                 {item.degree}
               </CustomTypography>
@@ -57,9 +46,7 @@ const Education = ({ propData }: EducationProps) => {
               <CustomTypography
                 placeholder="Education Name"
                 variant="h6"
-                color="blue-gray"
-                textGradient
-                className="hover:text-blue-400 ml-1 hover:underline hover:underline-offset-4"
+                className="text-blue-400 hover:text-blue-600 hover:underline hover:underline-offset-4"
               >
                 <Link href={item.href} target="_blank">
                   {item.name}
@@ -71,7 +58,6 @@ const Education = ({ propData }: EducationProps) => {
                 variant="paragraph"
                 color="blue-gray"
                 textGradient
-                className="ml-1"
               >
                 {item.location} | {item.duration}
               </CustomTypography>

@@ -13,10 +13,10 @@ const Header = ({ propData }: HeadingProps) => {
   const { name, position, avatar } = propData;
 
   return (
-    <header className="flex flex-row mx-auto justify-between">
+    <section className="p-2 mx-2 lg:p-4 lg:mx-4 flex justify-between border rounded shadow-lg">
       <div className="flex flex-col justify-center">
         <CustomTypography
-          variant="h4"
+          variant="h3"
           color="indigo"
           textGradient
           placeholder="Header Name"
@@ -34,16 +34,15 @@ const Header = ({ propData }: HeadingProps) => {
           {position}
         </CustomTypography>
       </div>
-      <div>
-        <CustomAvatar
-          src={avatar}
-          placeholder="Avatar Image"
-          variant="circular"
-          size="xxl"
-          className="lg:w-64 lg:h-64 shadow-xl"
-        />
-      </div>
-    </header>
+
+      <CustomAvatar
+        src={avatar}
+        placeholder="Avatar Image"
+        variant="circular"
+        size="xxl"
+        className="lg:w-64 lg:h-64 shadow-xl"
+      />
+    </section>
   );
 };
 

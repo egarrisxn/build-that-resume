@@ -15,22 +15,23 @@ const Resume = async () => {
 
   return (
     <div className="max-w-5xl mx-auto">
-      <div className="border-b-2 rounded-b-xl shadow-lg m-4 p-4 lg:p-8">
-        <Header propData={resumeData.heading} />
-      </div>
-      <div className="grid grid-rows-1 lg:grid-cols-2 border-b-2 gap-8 m-4 p-4 lg:p-8">
+      <Header propData={resumeData.heading} />
+
+      <div className="grid grid-rows-1 lg:grid-cols-2">
         <Contact propData={resumeData.contact} />
         <Summary propData={resumeData.summary} />
       </div>
-      <div className="grid grid-rows-1 lg:grid-cols-2 border-b-2 gap-8 m-4 p-4 lg:p-8">
+
+      <div className="grid grid-rows-1 lg:grid-cols-2">
         <Skills propData={resumeData.skills} />
         <Software propData={resumeData.software} />
       </div>
-      <div className="grid grid-rows-1 lg:grid-cols-2 border-b-2 gap-8 m-4 p-4 lg:p-8">
-        <Experience propData={resumeData.experience} />
-        <Projects propData={resumeData.projects} />
-      </div>
-      <div className="grid grid-rows-1 lg:grid-cols-2 border-b-2 gap-8 m-4 p-4 lg:p-8">
+
+      <Experience propData={resumeData.experience} />
+
+      <Projects propData={resumeData.projects} />
+
+      <div className="grid grid-rows-1 lg:grid-cols-2">
         <Education propData={resumeData.education} />
         <Hobbies propData={resumeData.hobbies} />
       </div>

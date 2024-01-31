@@ -15,51 +15,39 @@ const Projects = ({ propData }: ProjectsProps) => {
   const { title, projectList } = propData;
 
   return (
-    <section>
-      <div className="flex flex-row items-center gap-1 mb-1 border-b-2">
+    <section className="m-2 p-2 lg:m-4 lg:p-4">
+      <header className="flex items-center gap-1  border-b-2">
         <WindowIcon
           className="h-8 w-8 text-yellow-800"
           aria-label="Projects Icon"
         />
+
         <CustomTypography
           placeholder="Projects Title"
-          variant="h4"
+          variant="h3"
           color="indigo"
           textGradient
         >
           {title}
         </CustomTypography>
-      </div>
-      <div className="flex flex-col">
+      </header>
+
+      <ul className="grid grid-cols-1 lg:grid-cols-2">
         {projectList.map((item: ProjectList) => (
-          <CustomCard
-            placeholder="Project Card"
-            variant="gradient"
-            color="white"
-            shadow={true}
-            key={item.id}
-            className="m-2"
-          >
-            <CustomCardBody
-              placeholder="Project Card Body"
-              className="flex flex-col"
-            >
+          <CustomCard placeholder="Project Card" shadow={false} key={item.id}>
+            <CustomCardBody placeholder="Project Card Body">
               <CustomTypography
                 placeholder="Project Name"
-                variant="h4"
-                color="indigo"
-                textGradient
-                className="text-center mb-1"
+                variant="h6"
+                color="black"
               >
                 {item.name}
               </CustomTypography>
 
               <CustomTypography
                 placeholder="Project Link"
-                variant="paragraph"
-                color="blue-gray"
-                textGradient
-                className="hover:text-blue-400 text-center hover:underline hover:underline-offset-4 mb-2"
+                variant="h6"
+                className="text-blue-400 hover:text-blue-600 hover:underline hover:underline-offset-4"
               >
                 <Link href={item.href} target="_blank">
                   {item.value}
@@ -68,17 +56,16 @@ const Projects = ({ propData }: ProjectsProps) => {
 
               <CustomTypography
                 placeholder="Project Description"
-                variant="h6"
-                color="gray"
+                variant="paragraph"
+                color="blue-gray"
                 textGradient
-                className="text-center"
               >
                 {item.desc}
               </CustomTypography>
             </CustomCardBody>
           </CustomCard>
         ))}
-      </div>
+      </ul>
     </section>
   );
 };
