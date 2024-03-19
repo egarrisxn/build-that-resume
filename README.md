@@ -16,7 +16,7 @@ To maintain flexibility and ease of updating resume data, Build That Resume keep
 - **JSON Data:** The resume data is stored in a JSON file, allowing for easy updates without modifying the application code directly.
 - **Image Upload:** Users can upload images to include in the resume JSON file, such as an avatar image or screenshots of projects.
 
-[Repository](https://egarrisxn.github.io/resume-json/resume.json)
+[Repository](https://github.com/EGARRISXN/resume-json)
 
 ## Deployment
 
