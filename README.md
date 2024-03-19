@@ -32,10 +32,10 @@ Contributions are welcome! Please feel free to submit issues or pull requests.
 
 ## How to Run Locally
 
-1. Clone this repository.
-2. Install dependencies using `npm install`, `pnpm install`, etc.
-3. Run the development server using `npm run dev`.
-4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Clone repository.
+2. Install dependencies.
+3. Run the development server.
+4. Open [http://localhost:3000](http://localhost:3000) to view in the browser.
 
 ## Feedback
 
