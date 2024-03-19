@@ -37,7 +37,7 @@ Contributions are welcome! Please feel free to submit issues or pull requests.
 1. Clone repository.
 2. Install dependencies.
 3. Run the development server.
-4. Open [http://localhost:3000](http://localhost:3000) to view in the browser.
+4. Open your local host to view in browser.
 
 ## Feedback
 
