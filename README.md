@@ -2,19 +2,21 @@
 
 Build That Resume is a simple resume builder web application built using Next.js, TailwindCSS, Material-Tailwind, and TypeScript. It allows users to create professional resumes quickly and efficiently.
 
-## Features
-
-- TBD
-- TBD
-- TBD
-- TBD
-
 ## Technologies Used
 
 - **Next.js:** A React framework for building server-side rendered applications.
 - **TailwindCSS:** A utility-first CSS framework for creating custom designs quickly.
 - **Material-Tailwind:** A Material Design UI kit for TailwindCSS, providing pre-designed components.
 - **TypeScript:** A statically typed superset of JavaScript for enhanced code maintainability and scalability.
+
+- ## JSON Data and Image Upload
+
+To maintain flexibility and ease of updating resume data, Build That Resume keeps the resume content in a seperate repository, consisting of a JSON file and an Images folder.
+
+- **JSON Data:** The resume data is stored in a JSON file, allowing for easy updates without modifying the application code directly.
+- **Image Upload:** Users can upload images to include in the resume JSON file, such as an avatar image or screenshots of projects.
+
+[Repository](https://egarrisxn.github.io/resume-json/resume.json)
 
 ## Deployment
 
