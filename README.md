@@ -24,14 +24,6 @@ The project is deployed on Vercel, providing seamless deployment and hosting sol
 
 [Live Demo](https://build-that-resume.vercel.app/)
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit issues or pull requests.
-
 ## How to Run Locally
 
 1. Clone repository.
@@ -39,14 +31,18 @@ Contributions are welcome! Please feel free to submit issues or pull requests.
 3. Run the development server.
 4. Open your local host to view in browser.
 
+## Contributing
+
+Contributions are welcome! Please feel free to submit issues or pull requests.
+
 ## Feedback
 
 I welcome feedback! If you have any suggestions, feature requests, or encounter any issues, please open an issue on GitHub.
 
-## Authors
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Author
 
 - [Ethan Garrison](https://github.com/EGARRISXN)
-
----
-
-Feel free to customize this README according to your project's specifics. Happy coding!
