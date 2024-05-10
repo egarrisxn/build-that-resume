@@ -50,6 +50,8 @@ const CustomAvatar = ({
       withBorder={withBorder}
       color={color}
       className={className}
+      onPointerEnterCapture={undefined}
+      onPointerLeaveCapture={undefined}
     >
       {children}
     </Avatar>

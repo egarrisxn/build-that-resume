@@ -46,6 +46,8 @@ const CustomCard = ({
       color={color}
       shadow={shadow}
       className={className}
+      onPointerEnterCapture={undefined}
+      onPointerLeaveCapture={undefined}
     >
       {children}
     </Card>

@@ -58,6 +58,8 @@ const CustomInput = ({
       containerProps={containerProps}
       inputRef={inputRef}
       crossOrigin={crossOrigin}
+      onPointerEnterCapture={undefined}
+      onPointerLeaveCapture={undefined}
     >
       {children}
     </Input>

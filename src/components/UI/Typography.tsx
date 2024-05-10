@@ -57,6 +57,8 @@ const CustomTypography = ({
       color={color}
       textGradient={textGradient}
       className={className}
+      onPointerEnterCapture={undefined}
+      onPointerLeaveCapture={undefined}
     >
       {children}
     </Typography>

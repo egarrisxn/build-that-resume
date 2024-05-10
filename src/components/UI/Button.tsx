@@ -49,6 +49,8 @@ const CustomButton = ({
       ripple={ripple}
       placeholder={placeholder}
       className={className}
+      onPointerEnterCapture={undefined}
+      onPointerLeaveCapture={undefined}
     >
       {children}
     </Button>

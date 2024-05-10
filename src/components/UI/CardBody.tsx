@@ -13,7 +13,12 @@ const CustomCardBody = ({
   children,
 }: CardBodyProps) => {
   return (
-    <CardBody placeholder={placeholder} className={className}>
+    <CardBody
+      placeholder={placeholder}
+      className={className}
+      onPointerEnterCapture={undefined}
+      onPointerLeaveCapture={undefined}
+    >
       {children}
     </CardBody>
   );

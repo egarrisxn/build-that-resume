@@ -25,6 +25,8 @@ const CustomListItem = ({
       disabled={disabled}
       selected={selected}
       className={className}
+      onPointerEnterCapture={undefined}
+      onPointerLeaveCapture={undefined}
     >
       {children}
     </ListItem>

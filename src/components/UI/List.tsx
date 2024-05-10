@@ -9,7 +9,12 @@ interface ListProps {
 
 const CustomList = ({ placeholder, className, children }: ListProps) => {
   return (
-    <List placeholder={placeholder} className={className}>
+    <List
+      placeholder={placeholder}
+      className={className}
+      onPointerEnterCapture={undefined}
+      onPointerLeaveCapture={undefined}
+    >
       {children}
     </List>
   );

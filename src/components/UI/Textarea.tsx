@@ -67,6 +67,8 @@ const CustomTextarea = ({
       onChange={onChange}
       onKeyPress={onKeyPress}
       className={className}
+      onPointerEnterCapture={undefined}
+      onPointerLeaveCapture={undefined}
     >
       {children}
     </Textarea>
