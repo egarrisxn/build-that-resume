@@ -1,13 +1,13 @@
 import { ReactNode } from "react";
-import { ListItem } from "@/components/(UI)/Material-Tailwind";
+import { ListItem } from "@/components/UI/Material-Tailwind";
 
 interface ListItemProps {
-  placeholder: string;
+  placeholder?: string;
   ripple?: boolean;
   disabled?: boolean;
   selected?: boolean;
   className?: string;
-  children: ReactNode;
+  children?: ReactNode;
 }
 
 const CustomListItem = ({

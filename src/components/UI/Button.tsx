@@ -1,13 +1,12 @@
 import { ReactNode } from "react";
-import { Avatar } from "@/components/(UI)/Material-Tailwind";
+import { Button } from "@/components/UI/Material-Tailwind";
 
-interface AvatarProps {
-  src: string;
-  placeholder: string;
-  variant?: "circular" | "rounded";
-  size?: "xs" | "sm" | "md" | "lg" | "xl" | "xxl";
-  withBorder?: boolean;
+interface ButtonProps {
+  variant?: "filled" | "outlined" | "gradient" | "text";
+  size?: "sm" | "md" | "lg";
   color?:
+    | "white"
+    | "black"
     | "blue-gray"
     | "gray"
     | "brown"
@@ -27,29 +26,33 @@ interface AvatarProps {
     | "purple"
     | "pink"
     | "red";
+  ripple?: boolean;
+  placeholder?: string;
   className?: string;
+  children?: ReactNode;
 }
 
-const CustomAvatar = ({
-  src,
-  placeholder,
+const CustomButton = ({
   variant,
   size,
-  withBorder,
   color,
+  ripple,
+  placeholder,
   className,
-}: AvatarProps) => {
+  children,
+}: ButtonProps) => {
   return (
-    <Avatar
-      src={src}
-      placeholder={placeholder}
+    <Button
       variant={variant}
       size={size}
-      withBorder={withBorder}
       color={color}
+      ripple={ripple}
+      placeholder={placeholder}
       className={className}
-    />
+    >
+      {children}
+    </Button>
   );
 };
 
-export default CustomAvatar;
+export default CustomButton;

@@ -1,40 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Build That Resume
 
-## Getting Started
+Build That Resume is a simple resume builder web application built using Next.js, TailwindCSS, Material-Tailwind, and TypeScript. It allows users to create professional resumes quickly and efficiently.
 
-First, run the development server:
+## Technologies Used
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Next.js:** A React framework for building server-side rendered applications.
+- **TailwindCSS:** A utility-first CSS framework for creating custom designs quickly.
+- **Material-Tailwind:** A Material Design UI kit for TailwindCSS, providing pre-designed components.
+- **TypeScript:** A statically typed superset of JavaScript for enhanced code maintainability and scalability.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- ## JSON Data and Image Upload
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+To maintain flexibility and ease of updating resume data, Build That Resume keeps the resume content in a seperate repository, consisting of a JSON file and an Images folder.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **JSON Data:** The resume data is stored in a JSON file, allowing for easy updates without modifying the application code directly.
+- **Image Upload:** Users can upload images to include in the resume JSON file, such as an avatar image or screenshots of projects.
 
-## Learn More
+[Repository](https://github.com/EGARRISXN/resume-json)
 
-To learn more about Next.js, take a look at the following resources:
+## Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The project is deployed on Vercel, providing seamless deployment and hosting solutions for Next.js applications.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+[Live Demo](https://build-that-resume.vercel.app/)
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is licensed under the [MIT License](LICENSE).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contributing
 
-update this.
-do it asap.
-like now.
+Contributions are welcome! Please feel free to submit issues or pull requests.
+
+## How to Run Locally
+
+1. Clone repository.
+2. Install dependencies.
+3. Run the development server.
+4. Open your local host to view in browser.
+
+## Feedback
+
+I welcome feedback! If you have any suggestions, feature requests, or encounter any issues, please open an issue on GitHub.
+
+## Authors
+
+- [Ethan Garrison](https://github.com/EGARRISXN)
+
+---
+
+Feel free to customize this README according to your project's specifics. Happy coding!

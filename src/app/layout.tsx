@@ -2,8 +2,8 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
-import CustomThemeProvider from "@/components/(UI)/ThemeProvider";
-import CustomTheme from "@/components/(UI)/Theme";
+import CustomThemeProvider from "@/components/UI/ThemeProvider";
+import CustomTheme from "@/components/UI/Theme";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -12,15 +12,14 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://build-that-resume.vercel.app/"),
+  metadataBase: new URL("https://build-that-resume.vercel.app"),
   title: "Build That Resume!",
   description:
-    "A simple resume built using Next.js, TailwindCSS, Material-Tailwind, & Typescript.",
+    "Build That Resume is a web app that helps you build a resume in minutes.",
   referrer: "origin-when-cross-origin",
   keywords: [
-    "Resume , Builder , Next.js , TailwindCSS , Material-Tailwind , Typescript, React, Vercel, Ethan Garrison, Ethan, Garrison, Ethan Garrison Resume, Ethan-Garrison, Ethan-G, Ethan G Resume Builder, Build That Resume, build-that-resume, buildthatresume, build that resume, buildthatresume, build, that, resume, build that resume!, buildthatresume!",
+    "Resume, Builder, Next.js, TailwindCSS, Material-Tailwind, Typescript, React, Vercel, Ethan, Garrison, build-that-resume, buildthatresume",
   ],
-  creator: "Ethan Garrrison",
   robots: {
     index: true,
     follow: true,
@@ -32,22 +31,32 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    type: "website",
-    locale: "en_US",
     title: "Build That Resume!",
     description:
-      "A simple resume builder using Next.js, TailwindCSS, Material-Tailwind, & Typescript.",
+      "Build That Resume is a web app that helps you build a resume in minutes.",
     url: "https://build-that-resume.vercel.app/",
     siteName: "Build That Resume!",
-    images: "/opengraph-image.png",
+    type: "website",
+    locale: "en_US",
+    images: [
+      {
+        url: "https://build-that-resume.vercel.app/opengraph-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Build That Resume!",
+      },
+    ],
   },
   twitter: {
-    card: "summary_large_image",
     title: "Build That Resume!",
     description:
-      "A simple resume builder using Next.js, TailwindCSS, Material-Tailwind, & Typescript.",
-    creator: "Ethan Garrison",
-    images: "/twitter-image.png",
+      "Build That Resume is a web app that helps you build a resume in minutes.",
+    siteId: "2784984260",
+    creator: "@eg_xo_",
+    card: "summary_large_image",
+  },
+  icons: {
+    shortcut: "https://build-that-resume.vercel.app/favicon.ico",
   },
 };
 

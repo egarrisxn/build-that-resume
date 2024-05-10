@@ -1,9 +1,9 @@
-import Resume from "@/components/Resume";
+import Link from "next/link";
 
-export default function Home() {
+export default function ResumePage() {
   return (
-    <main>
-      <Resume />
-    </main>
+    <div className="text-center pt-24">
+      <Link href="/resume">Build That Resume Now!</Link>
+    </div>
   );
 }

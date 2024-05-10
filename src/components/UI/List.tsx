@@ -1,10 +1,10 @@
 import { ReactNode } from "react";
-import { List } from "@/components/(UI)/Material-Tailwind";
+import { List } from "@/components/UI/Material-Tailwind";
 
 interface ListProps {
-  placeholder: string;
+  placeholder?: string;
   className?: string;
-  children: ReactNode;
+  children?: ReactNode;
 }
 
 const CustomList = ({ placeholder, className, children }: ListProps) => {

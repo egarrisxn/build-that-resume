@@ -1,5 +1,5 @@
-import CustomTypography from "@/components/(UI)/Typography";
-import CustomAvatar from "@/components/(UI)/Avatar";
+import CustomTypography from "@/components/UI/Typography";
+import CustomAvatar from "@/components/UI/Avatar";
 
 type HeadingProps = {
   propData: {
@@ -9,11 +9,11 @@ type HeadingProps = {
   };
 };
 
-const Header = ({ propData }: HeadingProps) => {
+export function Header({ propData }: HeadingProps) {
   const { name, position, avatar } = propData;
 
   return (
-    <section className="p-2 mx-2 lg:p-4 lg:mx-4 flex justify-between border rounded shadow-lg">
+    <section className="p-2 lg:p-4 flex justify-between border rounded shadow-md">
       <div className="flex flex-col justify-center">
         <CustomTypography
           variant="h3"
@@ -44,6 +44,4 @@ const Header = ({ propData }: HeadingProps) => {
       />
     </section>
   );
-};
-
-export default Header;
+}

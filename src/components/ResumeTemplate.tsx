@@ -1,15 +1,15 @@
-import Header from "@/components/(Sections)/Header";
-import Contact from "@/components/(Sections)/Contact";
-import Summary from "@/components/(Sections)/Summary";
-import Skills from "@/components/(Sections)/Skills";
-import Software from "@/components/(Sections)/Software";
-import Projects from "@/components/(Sections)/Projects";
-import Experience from "@/components/(Sections)/Experience";
-import Education from "@/components/(Sections)/Education";
-import Hobbies from "@/components/(Sections)/Hobbies";
+import { Contact } from "./Sections/contact";
+import { Education } from "./Sections/education";
+import { Experience } from "./Sections/experience";
+import { Header } from "./Sections/header";
+import { Hobbies } from "./Sections/hobbies";
+import { Projects } from "./Sections/projects";
+import { Skills } from "./Sections/skills";
+import { Software } from "./Sections/software";
+import { Summary } from "./Sections/summary";
 import { getResumeAPI } from "@/libs/resumeAPI";
 
-const Resume = async () => {
+export default async function ResumeTemplate() {
   const apiResumeData: Promise<ResumeData> = getResumeAPI();
   const resumeData = await apiResumeData;
 
@@ -37,6 +37,4 @@ const Resume = async () => {
       </div>
     </div>
   );
-};
-
-export default Resume;
+}

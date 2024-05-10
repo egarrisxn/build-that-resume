@@ -1,8 +1,8 @@
 import { ReactNode } from "react";
-import { Card } from "@/components/(UI)/Material-Tailwind";
+import { Card } from "@/components/UI/Material-Tailwind";
 
 interface CardProps {
-  placeholder: string;
+  placeholder?: string;
   variant?: "filled" | "gradient";
   color?:
     | "transparent"
@@ -28,7 +28,7 @@ interface CardProps {
     | "red";
   shadow?: boolean;
   className?: string;
-  children: ReactNode;
+  children?: ReactNode;
 }
 
 const CustomCard = ({

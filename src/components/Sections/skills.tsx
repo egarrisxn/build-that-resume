@@ -1,27 +1,27 @@
-import CustomTypography from "@/components/(UI)/Typography";
-import CustomList from "@/components/(UI)/List";
-import CustomListItem from "@/components/(UI)/ListItem";
-import { FilmIcon } from "@heroicons/react/24/outline";
+import CustomTypography from "@/components/UI/Typography";
+import CustomList from "@/components/UI/List";
+import CustomListItem from "@/components/UI/ListItem";
+import { WrenchScrewdriverIcon } from "@heroicons/react/24/outline";
 
-type HobbyProps = {
+type SkillsProps = {
   propData: {
     title: string;
-    hobbyList: Array<HobbyList>;
+    skillList: Array<SkillList>;
   };
 };
 
-const Hobbies = ({ propData }: HobbyProps) => {
-  const { title, hobbyList } = propData;
+export function Skills({ propData }: SkillsProps) {
+  const { title, skillList } = propData;
 
   return (
     <section className="m-2 p-2 lg:m-4 lg:p-4">
       <header className="flex items-center gap-1 border-b-2">
-        <FilmIcon
+        <WrenchScrewdriverIcon
           className="h-8 w-8 text-yellow-800"
-          aria-label="Hobbies Icon"
+          aria-label="Skills Icon"
         />
         <CustomTypography
-          placeholder="Hobbies Title"
+          placeholder="Skills Title"
           variant="h3"
           color="indigo"
           textGradient
@@ -30,15 +30,15 @@ const Hobbies = ({ propData }: HobbyProps) => {
         </CustomTypography>
       </header>
 
-      <CustomList placeholder="Hobbies List" className="grid grid-cols-2">
-        {hobbyList.map((item: HobbyList) => (
+      <CustomList placeholder="Skills List" className="grid grid-cols-2">
+        {skillList.map((item: SkillList) => (
           <CustomListItem
-            placeholder="Hobbies Item"
+            placeholder="Skills Item"
             disabled={true}
             key={item.id}
           >
             <CustomTypography
-              placeholder="Hobbies Text"
+              placeholder="Skills Text"
               variant="small"
               color="black"
             >
@@ -49,6 +49,4 @@ const Hobbies = ({ propData }: HobbyProps) => {
       </CustomList>
     </section>
   );
-};
-
-export default Hobbies;
+}

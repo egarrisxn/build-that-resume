@@ -1,6 +1,6 @@
-import CustomTypography from "@/components/(UI)/Typography";
-import CustomCard from "@/components/(UI)/Card";
-import CustomCardBody from "@/components/(UI)/CardBody";
+import CustomTypography from "@/components/UI/Typography";
+import CustomCard from "@/components/UI/Card";
+import CustomCardBody from "@/components/UI/CardBody";
 import { BriefcaseIcon } from "@heroicons/react/24/outline";
 
 type ExperienceProps = {
@@ -10,7 +10,7 @@ type ExperienceProps = {
   };
 };
 
-const Experience = ({ propData }: ExperienceProps) => {
+export function Experience({ propData }: ExperienceProps) {
   const { title, experienceList } = propData;
   return (
     <section className="m-2 p-2 lg:m-4 lg:p-4">
@@ -77,6 +77,4 @@ const Experience = ({ propData }: ExperienceProps) => {
       </ul>
     </section>
   );
-};
-
-export default Experience;
+}

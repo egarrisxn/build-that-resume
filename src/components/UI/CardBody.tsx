@@ -1,10 +1,10 @@
 import { ReactNode } from "react";
-import { CardBody } from "@/components/(UI)/Material-Tailwind";
+import { CardBody } from "@/components/UI/Material-Tailwind";
 
 interface CardBodyProps {
-  placeholder: string;
+  placeholder?: string;
   className?: string;
-  children: ReactNode;
+  children?: ReactNode;
 }
 
 const CustomCardBody = ({

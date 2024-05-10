@@ -1,8 +1,8 @@
 import { ReactNode } from "react";
-import { Typography } from "@/components/(UI)/Material-Tailwind";
+import { Typography } from "@/components/UI/Material-Tailwind";
 
 interface TypographyProps {
-  placeholder: string;
+  placeholder?: string;
   variant?:
     | "h1"
     | "h2"
@@ -39,7 +39,7 @@ interface TypographyProps {
     | "red";
   textGradient?: boolean;
   className?: string;
-  children: ReactNode;
+  children?: ReactNode;
 }
 
 const CustomTypography = ({

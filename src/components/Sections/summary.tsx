@@ -1,4 +1,4 @@
-import CustomTypography from "@/components/(UI)/Typography";
+import CustomTypography from "@/components/UI/Typography";
 import { PencilSquareIcon } from "@heroicons/react/24/outline";
 
 type SummaryProps = {
@@ -8,7 +8,7 @@ type SummaryProps = {
   };
 };
 
-const Summary = ({ propData }: SummaryProps) => {
+export function Summary({ propData }: SummaryProps) {
   const { title, desc } = propData;
 
   return (
@@ -40,6 +40,4 @@ const Summary = ({ propData }: SummaryProps) => {
       </article>
     </section>
   );
-};
-
-export default Summary;
+}

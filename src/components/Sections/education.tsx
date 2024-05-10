@@ -1,29 +1,28 @@
-import CustomTypography from "@/components/(UI)/Typography";
-import CustomCard from "@/components/(UI)/Card";
-import CustomCardBody from "@/components/(UI)/CardBody";
-import { WindowIcon } from "@heroicons/react/24/outline";
+import CustomTypography from "@/components/UI/Typography";
+import CustomCard from "@/components/UI/Card";
+import CustomCardBody from "@/components/UI/CardBody";
+import { AcademicCapIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 
-type ProjectsProps = {
+type EducationProps = {
   propData: {
     title: string;
-    projectList: Array<ProjectList>;
+    educationList: Array<EducationList>;
   };
 };
 
-const Projects = ({ propData }: ProjectsProps) => {
-  const { title, projectList } = propData;
+export function Education({ propData }: EducationProps) {
+  const { title, educationList } = propData;
 
   return (
     <section className="m-2 p-2 lg:m-4 lg:p-4">
-      <header className="flex items-center gap-1  border-b-2">
-        <WindowIcon
+      <header className="flex items-center gap-1 border-b-2">
+        <AcademicCapIcon
           className="h-8 w-8 text-yellow-800"
-          aria-label="Projects Icon"
+          aria-label="Education Icon"
         />
-
         <CustomTypography
-          placeholder="Projects Title"
+          placeholder="Education Title"
           variant="h3"
           color="indigo"
           textGradient
@@ -32,35 +31,35 @@ const Projects = ({ propData }: ProjectsProps) => {
         </CustomTypography>
       </header>
 
-      <ul className="grid grid-cols-1 lg:grid-cols-2">
-        {projectList.map((item: ProjectList) => (
-          <CustomCard placeholder="Project Card" shadow={false} key={item.id}>
-            <CustomCardBody placeholder="Project Card Body">
+      <ul>
+        {educationList.map((item: EducationList) => (
+          <CustomCard placeholder="Education Card" shadow={false} key={item.id}>
+            <CustomCardBody placeholder="Education Card Body">
               <CustomTypography
-                placeholder="Project Name"
+                placeholder="Education Degree"
                 variant="h6"
                 color="black"
               >
-                {item.name}
+                {item.degree}
               </CustomTypography>
 
               <CustomTypography
-                placeholder="Project Link"
+                placeholder="Education Name"
                 variant="h6"
                 className="text-blue-400 hover:text-blue-600 hover:underline hover:underline-offset-4"
               >
                 <Link href={item.href} target="_blank">
-                  {item.value}
+                  {item.name}
                 </Link>
               </CustomTypography>
 
               <CustomTypography
-                placeholder="Project Description"
+                placeholder="Education Location & Duration"
                 variant="paragraph"
                 color="blue-gray"
                 textGradient
               >
-                {item.desc}
+                {item.location} | {item.duration}
               </CustomTypography>
             </CustomCardBody>
           </CustomCard>
@@ -68,6 +67,4 @@ const Projects = ({ propData }: ProjectsProps) => {
       </ul>
     </section>
   );
-};
-
-export default Projects;
+}

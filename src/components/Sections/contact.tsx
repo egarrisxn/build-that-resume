@@ -1,4 +1,4 @@
-import CustomTypography from "@/components/(UI)/Typography";
+import CustomTypography from "@/components/UI/Typography";
 import {
   IdentificationIcon,
   HomeIcon,
@@ -17,7 +17,7 @@ type ContactProps = {
   };
 };
 
-const Contact = ({ propData }: ContactProps) => {
+export function Contact({ propData }: ContactProps) {
   const { title, contactList } = propData;
 
   const iconFinder = (icon: string) => {
@@ -77,6 +77,4 @@ const Contact = ({ propData }: ContactProps) => {
       </ul>
     </section>
   );
-};
-
-export default Contact;
+}

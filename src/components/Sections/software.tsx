@@ -1,6 +1,6 @@
-import CustomTypography from "@/components/(UI)/Typography";
-import CustomList from "@/components/(UI)/List";
-import CustomListItem from "@/components/(UI)/ListItem";
+import CustomTypography from "@/components/UI/Typography";
+import CustomList from "@/components/UI/List";
+import CustomListItem from "@/components/UI/ListItem";
 import { ComputerDesktopIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 
@@ -11,7 +11,7 @@ type SoftwareProps = {
   };
 };
 
-const Software = ({ propData }: SoftwareProps) => {
+export function Software({ propData }: SoftwareProps) {
   const { title, softwareList } = propData;
 
   return (
@@ -54,6 +54,4 @@ const Software = ({ propData }: SoftwareProps) => {
       </CustomList>
     </section>
   );
-};
-
-export default Software;
+}
