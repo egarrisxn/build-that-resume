@@ -1,8 +1,8 @@
-const CustomTheme = {
-  component: {
-    defaultProps: {},
-    valid: {},
-    styles: {},
-  },
-};
-export default CustomTheme;
+// const CustomTheme = {
+//   component: {
+//     defaultProps: {},
+//     valid: {},
+//     styles: {},
+//   },
+// };
+// export default CustomTheme;
