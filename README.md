@@ -47,6 +47,6 @@ I welcome feedback! If you have any suggestions, feature requests, or encounter 
 
 This project is licensed under the [MIT License](LICENSE).
 
-## Author
+## Questions
 
-- [Ethan Garrison](https://github.com/EGARRISXN)
+Questions? Comments? Concerns? Reach out to me via [GitHub](https://github.com/EGARRISXN) or email at egarrisxn@gmail.com.
