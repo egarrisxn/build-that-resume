@@ -1,5 +1,9 @@
 # Build That Resume
 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) ![GitHub repo size](https://img.shields.io/github/repo-size/egarrisxn/build-that-resume)
+
+## Description
+
 Build That Resume is a simple resume builder web application built using Next.js, TailwindCSS, Material-Tailwind, and TypeScript. It allows users to create professional resumes quickly and efficiently.
 
 ## Technologies Used
@@ -9,7 +13,7 @@ Build That Resume is a simple resume builder web application built using Next.js
 - **Material-Tailwind:** A Material Design UI kit for TailwindCSS, providing pre-designed components.
 - **TypeScript:** A statically typed superset of JavaScript for enhanced code maintainability and scalability.
 
-- ## JSON Data and Image Upload
+- ## JSON Data and Image Upload -- WILL BE CHANGING SOON.
 
 To maintain flexibility and ease of updating resume data, Build That Resume keeps the resume content in a seperate repository, consisting of a JSON file and an Images folder.
 
@@ -43,6 +47,6 @@ I welcome feedback! If you have any suggestions, feature requests, or encounter 
 
 This project is licensed under the [MIT License](LICENSE).
 
-## Author
+## Questions
 
-- [Ethan Garrison](https://github.com/EGARRISXN)
+Questions? Comments? Concerns? Reach out to me via [GitHub](https://github.com/EGARRISXN) or email at egarrisxn@gmail.com.
