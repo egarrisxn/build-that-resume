@@ -6,6 +6,8 @@
 
 Build That Resume is a simple resume builder web application built using Next.js, TailwindCSS, Material-Tailwind, and TypeScript. It allows users to create professional resumes quickly and efficiently.
 
+![resumebuilder1](https://github.com/egarrisxn/build-that-resume/assets/126130230/92644b1a-e1ce-4c33-9a20-f8f41b7369d7)
+
 ## Technologies Used
 
 - **Next.js:** A React framework for building server-side rendered applications.
