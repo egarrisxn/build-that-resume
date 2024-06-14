@@ -4,13 +4,6 @@ import CustomCardBody from "@/components/UI/CardBody";
 import { AcademicCapIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 
-type EducationProps = {
-  propData: {
-    title: string;
-    educationList: Array<EducationList>;
-  };
-};
-
 export default function EducationForm() {
   return (
     <section className="m-2 p-2 lg:m-4 lg:p-4">

@@ -5,10 +5,8 @@ import type {
   ButtonProps,
   CardProps,
   CardBodyProps,
-  InputProps,
   ListProps,
   ListItemProps,
-  TextareaProps,
   TypographyProps,
 } from "@material-tailwind/react";
 
@@ -17,10 +15,8 @@ import {
   Button,
   Card,
   CardBody,
-  Input,
   List,
   ListItem,
-  Textarea,
   Typography,
   ThemeProvider,
 } from "@material-tailwind/react";
@@ -30,10 +26,8 @@ export type {
   ButtonProps,
   CardProps,
   CardBodyProps,
-  InputProps,
   ListProps,
   ListItemProps,
-  TextareaProps,
   TypographyProps,
 };
 
@@ -42,10 +36,8 @@ export {
   Button,
   Card,
   CardBody,
-  Input,
   List,
   ListItem,
-  Textarea,
   Typography,
   ThemeProvider,
 };
