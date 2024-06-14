@@ -1,0 +1,138 @@
+{
+  "resumeData": {
+    "heading": {
+      "title": "",
+      "name": "",
+      "position": "",
+      "avatar": ""
+    },
+    "summary": {
+      "title": "Summary",
+      "desc": ""
+    },
+    "contact": {
+      "title": "Contact",
+      "contactList": [
+        {
+          "id": "info_01",
+          "icon": "Email",
+          "href": "mailto:your-email@example.com",
+          "value": "Email"
+        },
+        {
+          "id": "info_02",
+          "icon": "Location",
+          "href": "https://www.google.com/maps/place/Your+Location",
+          "value": "Location"
+        },
+        {
+          "id": "info_03",
+          "icon": "Phone",
+          "href": "tel:+1234567890",
+          "value": "Phone"
+        },
+        {
+          "id": "info_04",
+          "icon": "Website",
+          "href": "https://www.yourwebsite.com/",
+          "value": "Website"
+        },
+        {
+          "id": "info_05",
+          "icon": "LinkedIn",
+          "href": "https://www.linkedin.com/in/your-profile/",
+          "value": "LinkedIn"
+        },
+        {
+          "id": "info_06",
+          "icon": "GitHub",
+          "href": "https://www.github.com/your-github/",
+          "value": "GitHub"
+        }
+      ]
+    },
+    "experience": {
+      "title": "Experience",
+      "experienceList": [
+        {
+          "id": "company_01",
+          "name": "Company Name",
+          "location": "City, State",
+          "detailList": [
+            {
+              "id": "role_01",
+              "position": "Job Title",
+              "duration": "Year - Year",
+              "dutyList": [
+                {
+                  "id": "duty_01",
+                  "desc": "Responsibility or achievement description."
+                },
+                {
+                  "id": "duty_02",
+                  "desc": "Responsibility or achievement description."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "projects": {
+      "title": "Projects",
+      "projectList": [
+        {
+          "id": "project_01",
+          "name": "Project Name",
+          "href": "https://www.project-link.com/",
+          "value": "project-link.com",
+          "desc": "Brief project description."
+        }
+      ]
+    },
+    "skills": {
+      "title": "Skills",
+      "skillList": [
+        {
+          "id": "skill_01",
+          "name": "Skill Name",
+          "desc": ""
+        }
+      ]
+    },
+    "software": {
+      "title": "Software",
+      "softwareList": [
+        {
+          "id": "software_01",
+          "name": "Software Name",
+          "href": "https://www.software-link.com/",
+          "desc": ""
+        }
+      ]
+    },
+    "education": {
+      "title": "Education",
+      "educationList": [
+        {
+          "id": "education_01",
+          "name": "Institution Name",
+          "location": "City, State",
+          "href": "https://www.institution-link.com/",
+          "degree": "Degree or Certificate",
+          "duration": "Year"
+        }
+      ]
+    },
+    "hobbies": {
+      "title": "Hobbies",
+      "hobbyList": [
+        {
+          "id": "hobby_01",
+          "name": "Hobby Name",
+          "desc": ""
+        }
+      ]
+    }
+  }
+}
