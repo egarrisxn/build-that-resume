@@ -36,26 +36,7 @@ export const metadata: Metadata = {
     siteName: "DevBuild Resume!",
     type: "website",
     locale: "en_US",
-    images: [
-      {
-        url: "https://devbuild-resume.vercel.app/opengraph-image.png",
-        width: 1200,
-        height: 630,
-        alt: "DevBuild Resume!",
-      },
-    ],
-  },
-  twitter: {
-    title: "DevBuild Resume!",
-    description:
-      "DevBuild Resume is a web app that helps you build a resume in minutes.",
-    siteId: "2784984260",
-    creator: "@eg_xo_",
-    card: "summary_large_image",
-  },
-  icons: {
-    shortcut: "https://devbuild-resume.vercel.app/favicon.ico",
-  },
+  }
 };
 
 export default function RootLayout({
