@@ -6,7 +6,7 @@
 
 DevBuild Resume is a simple resume builder web application built using Next.js, TailwindCSS, Material-Tailwind, and TypeScript. It allows users to create professional resumes quickly and efficiently.
 
-![devbuildresume](https://github.com/egarrisxn/devbuild-resume/assets/126130230/001443e7-6bfc-48b6-9af6-f9996bd0e740)
+![devbuildresume](https://github.com/egarrisxn/devbuild-resume/assets/126130230/01ab46e2-fb70-4339-8761-f2df6023e703)
 
 ## Technologies Used
 
