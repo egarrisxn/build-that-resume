@@ -15,20 +15,20 @@ DevBuild Resume is a simple resume builder web application built using Next.js, 
 - **Material-Tailwind:** A Material Design UI kit for TailwindCSS, providing pre-designed components.
 - **TypeScript:** A statically typed superset of JavaScript for enhanced code maintainability and scalability.
 
-- ## JSON Data and Image Upload -- WILL BE CHANGING SOON.
+- ## JSON Data and Image Upload -- MAY CHANGE IN THE FUTURE.
 
 To maintain flexibility and ease of updating resume data, Build That Resume keeps the resume content in a seperate repository, consisting of a JSON file and an Images folder.
 
 - **JSON Data:** The resume data is stored in a JSON file, allowing for easy updates without modifying the application code directly.
 - **Image Upload:** Users can upload images to include in the resume JSON file, such as an avatar image or screenshots of projects.
 
-[Repository](https://github.com/EGARRISXN/resume-json)
+[Repository](https://github.com/egarrisxn/devbuild-resume)
 
 ## Deployment
 
 The project is deployed on Vercel, providing seamless deployment and hosting solutions for Next.js applications.
 
-[Live Demo](https://build-that-resume.vercel.app/)
+[Live Demo](https://devbuild-resume.vercel.app/)
 
 ## How to Run Locally
 
@@ -36,6 +36,12 @@ The project is deployed on Vercel, providing seamless deployment and hosting sol
 2. Install dependencies.
 3. Run the development server.
 4. Open your local host to view in browser.
+
+## Usage
+
+1. Navigate to the "info" page.
+2. Follow the instructions.
+3. Create your next resume! 
 
 ## Contributing
 
