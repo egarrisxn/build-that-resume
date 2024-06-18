@@ -57,8 +57,8 @@ export default function InfoPage() {
           <br/>
           Helpful links:
           <br/>
-          <a href="https://github.com/egarrisxn/build-that-resume" className="underline underline-offset-2 text-blue-600 hover:text-blue-300">
-            build-that-resume repository
+          <a href="https://github.com/egarrisxn/devbuild-resume" className="underline underline-offset-2 text-blue-600 hover:text-blue-300">
+            devbuild-resume repository
           </a>
           <br/>
           <a href="https://github.com/egarrisxn/resume-json" className="underline underline-offset-2 text-blue-600 hover:text-blue-300">

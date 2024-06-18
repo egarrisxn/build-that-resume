@@ -1,7 +1,7 @@
 {
-  "name": "build-that-resume",
+  "name": "devbuild-resume",
   "short_name": "btr",
-  "description": "Build That Resume is a web app that helps you build a resume in minutes.",
+  "description": "DevBuild Resume is a web app that helps you build a resume in minutes.",
   "start_url": "/",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",

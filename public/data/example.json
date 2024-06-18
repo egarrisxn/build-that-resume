@@ -260,9 +260,9 @@
         },
         {
           "id": "project_06",
-          "name": "Build That Resume!",
-          "href": "https://build-that-resume.vercel.app",
-          "value": "build-that-resume.vercel.app",
+          "name": "DevBuild Resume!",
+          "href": "https://devbuild-resume.vercel.app",
+          "value": "devbuild-resume.vercel.app",
           "desc": "Designed a typesafe resume template tailored for developers, providing an easy-to-use platform to create and customize professional resumes."
         },
         {

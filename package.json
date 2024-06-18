@@ -1,8 +1,8 @@
 {
-  "name": "build-that-resume",
+  "name": "devbuild-resume",
   "version": "1.0.0",
   "description": "A typesafe resume builder.",
-  "homepage": "https://build-that-resume.vercel.app/",
+  "homepage": "https://devbuild-resume.vercel.app/",
   "author": "Ethan G",
   "license": "MIT",
   "private": true,

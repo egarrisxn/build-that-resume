@@ -10,13 +10,13 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://build-that-resume.vercel.app"),
-  title: "Build That Resume!",
+  metadataBase: new URL("https://devbuild-resume.vercel.app"),
+  title: "DevBuild Resume!",
   description:
-    "Build That Resume is a web app that helps you build a resume in minutes.",
+    "DevBuild Resume is a web app that helps you build a resume in minutes.",
   referrer: "origin-when-cross-origin",
   keywords: [
-    "Resume, Builder, Next.js, TailwindCSS, Material-Tailwind, Typescript, React, Vercel, Ethan, Garrison, build-that-resume, buildthatresume",
+    "Resume, Builder, Next.js, TailwindCSS, Material-Tailwind, Typescript, React, Vercel, Ethan, Garrison, devbuild-resume, buildthatresume",
   ],
   robots: {
     index: true,
@@ -29,32 +29,32 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Build That Resume!",
+    title: "DevBuild Resume!",
     description:
-      "Build That Resume is a web app that helps you build a resume in minutes.",
-    url: "https://build-that-resume.vercel.app/",
-    siteName: "Build That Resume!",
+      "DevBuild Resume is a web app that helps you build a resume in minutes.",
+    url: "https://devbuild-resume.vercel.app/",
+    siteName: "DevBuild Resume!",
     type: "website",
     locale: "en_US",
     images: [
       {
-        url: "https://build-that-resume.vercel.app/opengraph-image.png",
+        url: "https://devbuild-resume.vercel.app/opengraph-image.png",
         width: 1200,
         height: 630,
-        alt: "Build That Resume!",
+        alt: "DevBuild Resume!",
       },
     ],
   },
   twitter: {
-    title: "Build That Resume!",
+    title: "DevBuild Resume!",
     description:
-      "Build That Resume is a web app that helps you build a resume in minutes.",
+      "DevBuild Resume is a web app that helps you build a resume in minutes.",
     siteId: "2784984260",
     creator: "@eg_xo_",
     card: "summary_large_image",
   },
   icons: {
-    shortcut: "https://build-that-resume.vercel.app/favicon.ico",
+    shortcut: "https://devbuild-resume.vercel.app/favicon.ico",
   },
 };
 

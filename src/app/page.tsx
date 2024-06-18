@@ -16,7 +16,7 @@ export default function ResumePage() {
         textGradient
         className="text-3xl sm:text-4xl lg:text-5xl 2xl:text-6xl"
         >
-          Build That Resume!
+          DevBuild Resume!
         </CustomTypography>
         <CustomTypography
         variant="h4"
