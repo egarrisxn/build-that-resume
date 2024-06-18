@@ -14,7 +14,13 @@ export default function InfoPage() {
         >
           Instructions
         </CustomTypography>
-        <Link href="/resume-template" target="_blank" className="underline 2xl:text-xl ml-1 underline-offset-2 text-blue-600 hover:text-blue-300">Template</Link> | <Link href="/example-resume" target="_blank"  className="2xl:text-xl underline underline-offset-2 text-blue-600 hover:text-blue-300">Example</Link>
+        <Link href="/resume-template" target="_blank" className="underline 2xl:text-xl ml-1 underline-offset-2 text-blue-600 hover:text-blue-300">
+          Template
+        </Link>
+        {" | "}
+        <Link href="/example-resume" target="_blank"  className="2xl:text-xl underline underline-offset-2 text-blue-600 hover:text-blue-300">
+          Example
+        </Link>
       </section>
       <section>
        <CustomTypography
@@ -23,19 +29,42 @@ export default function InfoPage() {
         textGradient
         className="text-sm sm:text-base xl:text-lg 2xl:text-xl"
         >
-          1. Visit <a href="https://github.com" className="underline underline-offset-2 text-blue-600 hover:text-blue-300">GitHub </a>and create a new repository. We will be fetching our data from here.<br/>
-          2. Create a <span className="font-bold">folder</span> named images for your avatar & a <span className="font-bold">file</span> named resume.json.<br/>
-          3. Head back over to the application and navigate to the <span className="border-2 shadow rounded-lg border-purple-200 px-1">/public/data</span> folder.<br/>
-          4. Copy the template.json file and use it as reference for your resume.json file.<br/>
-          5. Once you complete that, use GitHub Pages to spin up a static site for your repo.<br/>
-          6. This makes it easier to update your data, rather than deploying the app constantly.<br/>
-          7. Go ahead and get your new GitHub Pages URL and head back to this application.<br/>
-          8. Naviate to the <span className="border-2 shadow rounded-lg border-purple-200 px-1">src/libs/resumeAPI</span> file and update the endpoint with your new URL.<br/>
-          9. Once you are finished with that, your resume should be ready & available <Link href="/final-resume"className="underline underline-offset-2 text-blue-600 hover:text-blue-300">here</Link>!<br/>
-          10. If you have any questions at all, email me directly at <span className="text-black">egarrisxn@gmail.com</span>.<br/><br/>
-          Here are a few helpful links:<br/>
-          <a href="https://github.com/egarrisxn/build-that-resume" className="underline underline-offset-2 text-blue-600 hover:text-blue-300">build-that-resume repo</a><br/>
-          <a href="https://github.com/egarrisxn/resume-json" className="underline underline-offset-2 text-blue-600 hover:text-blue-300">resume.json repo</a><br/>
+          1. Visit <a href="https://github.com" className="underline underline-offset-2 text-blue-600 hover:text-blue-300">GitHub</a> and create a new repository to store your data.
+          <br/>
+          2. Create a <span className="font-bold">folder</span> named images for your avatar & a <span className="font-bold">file</span> named &quot;resume.json&quot;.
+          <br/>
+          3. Navigate to the <span className="border-2 shadow rounded-lg border-purple-200 px-1">/public/data</span> folder in your application.
+          <br/>
+          4. Copy the &quot;template.json&quot; file as a reference for creating your &quot;resume.json&quot; file.
+          <br/>
+          5. Deploy a static site for your repository using GitHub Pages.
+          <br/>
+          6. This allows easier data updates, avoiding constant application deployments
+          <br/>
+          7. Obtain your new GitHub Pages URL and return to update the endpoint in <span className="border-2 shadow rounded-lg border-purple-200 px-1">src/libs/resumeAPI</span>.
+          <br/>
+          8. Once done, your updated resume will be accessible <Link href="/final-resume" className="underline text-blue-600 hover:text-blue-300">here</Link>.
+          <br/>
+          <br/>
+          <span className="text-sm">Note: While you can use the &quot;example.json&quot; file for real-time updates during development, once your application is in production, 
+          <br className="hidden lg:block"/>{' '}
+           you will need a separate JSON file properly configured for the application to function correctly.
+          </span>
+          <br/>
+          <br/>
+           For any questions, feel free to contact me directly at <span className="font-bold">egarrisxn@gmail.com</span>.
+          <br/>
+          <br/>
+          Helpful links:
+          <br/>
+          <a href="https://github.com/egarrisxn/build-that-resume" className="underline underline-offset-2 text-blue-600 hover:text-blue-300">
+            build-that-resume repository
+          </a>
+          <br/>
+          <a href="https://github.com/egarrisxn/resume-json" className="underline underline-offset-2 text-blue-600 hover:text-blue-300">
+            resume.json repository
+          </a>
+          <br/>
         </CustomTypography>
       </section>
       <section className="flex flex-col justify-center sm:flex-row sm:justify-between gap-4 sm:gap-0 sm:items-center">

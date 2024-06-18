@@ -2,14 +2,14 @@
   "resumeData": {
     "heading": {
       "title": "",
-      "name": "Ethan G.",
+      "name": "Ethan Garrison",
       "position": "Full-Stack Web Developer",
       "avatar": "https://egarrisxn.github.io/resume-json/images/avatar.png"
     },
 
     "summary": {
       "title": "Summary",
-      "desc": "Seasoned professional with a decade-long background in account management, sales, and leadership. Successfully pivoted to Full-Stack Web Development one year ago, demonstrating a rapid adaptation to new challenges. Blend of managerial experience and recent tech proficiency, offering a unique perspective for strategic problem-solving in web development. Excited to contribute a wealth of diverse skills to a forward-thinking tech team."
+      "desc": "Seasoned professional with over a decade of experience in sales and management, distinguished by a commitment to superior customer service and leadership excellence. Embracing a career pivot, I've immersed myself in the dynamic field of software and web development following the completion of a rigorous full-stack coding bootcamp. Combining my extensive background in management with newfound technical expertise, I bring a unique perspective to strategic problem-solving in web development. Eager to leverage a diverse skill set and contribute effectively to an innovative tech team."
     },
 
     "contact": {
@@ -19,43 +19,43 @@
           "id": "info_01",
           "icon": "Email",
           "href": "mailto:egarrisxn@gmail.com",
-          "value": "Email"
+          "value": "Egarrisxn@gmail.com"
         },
         {
           "id": "info_02",
           "icon": "Location",
-          "href": "https://www.google.com/maps/place/Florida",
-          "value": "Location"
+          "href": "https://www.google.com/maps/place/Orlando,+FL",
+          "value": "Orlando, Fl"
         },
         {
           "id": "info_03",
           "icon": "Phone",
           "href": "tel:+15802844513",
-          "value": "Phone"
+          "value": "580.284.4513"
         },
         {
           "id": "info_04",
           "icon": "Website",
-          "href": "https://www.egxworld.net/",
-          "value": "Website"
+          "href": "https://egxworld.net",
+          "value": "Egxworld.net"
         },
         {
           "id": "info_05",
           "icon": "Blog",
-          "href": "https://www.egxblog.net/",
-          "value": "Blog"
+          "href": "https://egxblog.net",
+          "value": "Egxblog.net"
         },
         {
           "id": "info_06",
           "icon": "Linkedin",
-          "href": "https://www.linkedin.com/in/ethan-gx/",
-          "value": "Linkedin"
+          "href": "https://linkedin.com/in/ethan-gx",
+          "value": "Linkedin.com/in/ethan-gx"
         },
         {
           "id": "info_07",
           "icon": "Github",
-          "href": "https://www.github.com/egarrisxn/",
-          "value": "Github"
+          "href": "https://github.com/egarrisxn",
+          "value": "Github.com/egarrisxn"
         }
       ]
     },
@@ -63,6 +63,28 @@
     "experience": {
       "title": "Experience",
       "experienceList": [
+        {
+          "id": "freelance_01",
+          "name": "Freelance",
+          "location": "Orlando, FL",
+          "detailList": [
+            {
+              "id": "freelance_01_01",
+              "position": "Full-Stack Web Developer",
+              "duration": "2023 - Present",
+              "dutyList": [
+                {
+                  "id": "freelance_01_01_01",
+                  "desc": "Lead the design and development of responsive, intuitive web interfaces, focusing on seamless user experience and integrating robust back-end functionality."
+                },
+                {
+                  "id": "freelance_01_01_02",
+                  "desc": "Manage end-to-end project lifecycles, from initial concept through to final delivery, ensuring high client satisfaction and timely project completion."
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "pinksquirrel_01",
           "name": "The Pink Squirrel",
@@ -75,11 +97,11 @@
               "dutyList": [
                 {
                   "id": "pinksquirrel_01_01_01",
-                  "desc": "Created innovative marketing and advertising campaigns to promote restaurant promotional offers and increase sales."
+                  "desc": "Developed and executed targeted marketing and advertising strategies, increasing restaurant visibility and driving significant sales growth."
                 },
                 {
                   "id": "pinksquirrel_01_01_02",
-                  "desc": "Engaged team members and improved performance by delivering daily updates and conducting daily meetings to obtain feedback."
+                  "desc": "Led daily team meetings, providing constructive feedback and conducting tailored training sessions to enhance staff performance and operational efficiency."
                 }
               ]
             }
@@ -92,16 +114,16 @@
           "detailList": [
             {
               "id": "roughtail_01_01",
-              "position": "Account Manager",
+              "position": "Regional Account Manager",
               "duration": "2021 - 2022",
               "dutyList": [
                 {
                   "id": "roughtail_01_01_01",
-                  "desc": "Built and strengthened long-lasting client relationships based on accurate price quotes and customer-centric terms."
+                  "desc": "Built and maintained strong client relationships by offering tailored pricing strategies and personalized customer service."
                 },
                 {
                   "id": "roughtail_01_01_02",
-                  "desc": "Identified key entry points to enhance market penetration and maximize returns."
+                  "desc": "Identified strategic market entry points, optimizing market penetration and maximizing return on investment."
                 }
               ]
             }
@@ -119,11 +141,11 @@
               "dutyList": [
                 {
                   "id": "armadillo_01_01_01",
-                  "desc": "Oversaw new business development to generate sales leads, negotiate client pricing and forecast revenue."
+                  "desc": "Drove new business development initiatives, proactively identifying sales opportunities, negotiating contracts, and forecasting revenue growth."
                 },
                 {
                   "id": "armadillo_01_01_02",
-                  "desc": "Reviewed and mitigated discrepancies to increase sales, reduce costs and streamline processes."
+                  "desc": "Implemented strategic initiatives to streamline processes, mitigate discrepancies, and optimize sales performance."
                 }
               ]
             }
@@ -141,11 +163,11 @@
               "dutyList": [
                 {
                   "id": "northside_01_01_01",
-                  "desc": "Built and strengthened area partnerships to reap benefits such as new revenue channels and enhanced public awareness."
+                  "desc": "Forged strategic partnerships within the community, leveraging relationships to drive new revenue streams and enhance brand visibility."
                 },
                 {
                   "id": "northside_01_01_02",
-                  "desc": "Helped team members maintain business professionalism by coaching on methods for delivering exceptional service."
+                  "desc": "Provided leadership and mentorship to foster a culture of exceptional service delivery and uphold high standards of operational excellence."
                 }
               ]
             }
@@ -158,16 +180,16 @@
           "detailList": [
             {
               "id": "fullclip_01_01",
-              "position": "Account Manager",
+              "position": "Sales Manager",
               "duration": "2015 - 2018",
               "dutyList": [
                 {
                   "id": "fullclip_01_01_01",
-                  "desc": "Facilitated client satisfaction and renewed customer relations to drive growth."
+                  "desc": "Championed client satisfaction initiatives, fostering strong, long-term relationships and consistently exceeding customer expectations."
                 },
                 {
                   "id": "fullclip_01_01_02",
-                  "desc": "Educated clients on new products or services to increase customer engagement with brand."
+                  "desc": "Educated clients on innovative products and services, driving engagement and enhancing brand loyalty."
                 }
               ]
             }
@@ -180,16 +202,16 @@
           "detailList": [
             {
               "id": "dbk_01_01",
-              "position": "Assistant General Manager",
+              "position": "General Manager",
               "duration": "2012 - 2015",
               "dutyList": [
                 {
                   "id": "dbk_01_01_01",
-                  "desc": "Managed budget implementations, employee reviews, training, schedules, and contract negotiations."
+                  "desc": "Directed comprehensive budgetary planning, performance reviews, training programs, and contract negotiations."
                 },
                 {
                   "id": "dbk_01_01_02",
-                  "desc": "Maximized operational excellence mentoring staff on leadership principles, industry practices, and company procedures."
+                  "desc": "Cultivated a culture of operational excellence, coaching teams on leadership principles, industry best practices, and company protocols."
                 }
               ]
             }
@@ -203,31 +225,59 @@
       "projectList": [
         {
           "id": "project_01",
-          "name": "egxworld",
-          "href": "https://www.egxworld.net/",
-          "value": "egxworld.net",
-          "desc": "My personal Website site I've created to showcase my projects, skills, experience, and more."
+          "name": "Sway Bae Official",
+          "href": "https://www.swaybae.net",
+          "value": "swaybae.net",
+          "desc": "Designed and developed the official website for professional streamer & content creator, Sway Bae, showcasing dynamic content and engaging user experience."
         },
         {
           "id": "project_02",
-          "name": "egxblog",
-          "href": "https://www.egxblog.net/",
-          "value": "egxblog.net",
-          "desc": "My personal blog I've created to document my journey as a developer. I'll be posting about my projects, my experiences, and my thoughts."
+          "name": "MDXRSC Showcase",
+          "href": "https://mdxrsc-showcase.vercel.app",
+          "value": "mdxrsc-showcase.vercel.app",
+          "desc": "Built a minimalist website using React Server Components, optimizing page load times and enhancing interactivity through server-side rendering."
         },
         {
           "id": "project_03",
-          "name": "Sway Bae Official",
-          "href": "https://www.swaybae.net/",
-          "value": "swaybae.net",
-          "desc": "The Official Sway Bae site showcases this professional streamer's assets, achievements, social media links, and much more. Check out and support Sway Bae!"
+          "name": "Astro SSR Blog",
+          "href": "https://astro-ssr-blog-ten.vercel.app",
+          "value": "astro-ssr-blog-ten.vercel.app",
+          "desc": "Developed a server-side rendered blog using Astro Framework, prioritizing speed and SEO-friendliness while maintaining a customizable content management system."
         },
         {
           "id": "project_04",
-          "name": "Player One Reads",
-          "href": "https://egarrisxn.github.io/player-one-reads/",
-          "value": "egarrisxn.github.io/player-one-reads",
-          "desc": "Player One Reads generates book suggestions based upon a user's video game interests. Once you've found your suggested book, you'll have the option to read or purchase it. Happy reading!"
+          "name": "Sanity Website Builder",
+          "href": "https://website-builder-smoky-one.vercel.app",
+          "value": "website-builder-smoky-one.vercel.app",
+          "desc": "Created a CMS-driven website builder with Sanity, enabling users to effortlessly build and customize websites with a modern and intuitive interface."
+        },
+        {
+          "id": "project_05",
+          "name": "Unofficial Merchandise",
+          "href": "https://egarrisxn-ecommerce.vercel.app",
+          "value": "egarrisxn-ecommerce.vercel.app",
+          "desc": "Developed a fully functional ecommerce webstore integrated with Stripe payment gateway, ensuring a secure and seamless shopping experience for customers."
+        },
+        {
+          "id": "project_06",
+          "name": "Build That Resume!",
+          "href": "https://build-that-resume.vercel.app",
+          "value": "build-that-resume.vercel.app",
+          "desc": "Designed a typesafe resume template tailored for developers, providing an easy-to-use platform to create and customize professional resumes."
+        },
+        {
+          "id": "project_07",
+          "name": "EG x WORLD",
+          "href": "https://www.egxworld.net",
+          "value": "egxworld.net",
+          "desc": "Developed my personal website, EG x WORLD, to showcase my skills as a Full-Stack Web Developer and share insights into my professional journey."
+        },
+        {
+          "id": "project_08",
+          "name": "EG x BLOG",
+          "href": "https://www.egxblog.net",
+          "value": "egxblog.net",
+          "desc": "Established my personal blog, EG x BLOG, as a platform to document my learning experiences and insights on web development and design."
         }
       ]
     },
@@ -331,13 +381,13 @@
         },
         {
           "id": "software_04",
-          "name": "C+",
-          "href": "https://www.typescriptlang.org/",
+          "name": "Node.js",
+          "href": "https://nodejs.org/",
           "desc": ""
         },
         {
           "id": "software_05",
-          "name": "Javascript",
+          "name": "JavaScript",
           "href": "https://www.javascript.com/",
           "desc": ""
         },
@@ -355,32 +405,32 @@
         },
         {
           "id": "software_08",
-          "name": "Next.js",
-          "href": "https://nextjs.org/",
-          "desc": ""
-        },
-        {
-          "id": "software_09",
           "name": "Angular",
           "href": "https://angular.io/",
           "desc": ""
         },
         {
-          "id": "software_10",
+          "id": "software_09",
           "name": "Vue.js",
           "href": "https://www.vue.js/",
           "desc": ""
         },
         {
+          "id": "software_10",
+          "name": "Next.js",
+          "href": "https://nextjs.org/",
+          "desc": ""
+        },
+        {
           "id": "software_11",
-          "name": "TailwindCSS",
-          "href": "https://tailwindcss.com/",
+          "name": "jQuery",
+          "href": "https://jquery.com/",
           "desc": ""
         },
         {
           "id": "software_12",
-          "name": "Sanity",
-          "href": "https://sanity.io/",
+          "name": "Express",
+          "href": "https://expressjs.com/",
           "desc": ""
         },
         {
@@ -403,30 +453,36 @@
         },
         {
           "id": "software_16",
-          "name": "jQuery",
-          "href": "https://jquery.com/",
+          "name": "Tailwind",
+          "href": "https://tailwindcss.com/",
           "desc": ""
         },
-        {
+         {
           "id": "software_17",
-          "name": "Express",
-          "href": "https://expressjs.com/",
+          "name": "Bootstrap",
+          "href": "https://getbootstrap.com/",
           "desc": ""
         },
         {
           "id": "software_18",
-          "name": "Node.js",
-          "href": "https://nodejs.org/",
+          "name": "Sanity",
+          "href": "https://sanity.io/",
           "desc": ""
         },
         {
           "id": "software_19",
+          "name": "C+",
+          "href": "https://www.typescriptlang.org/",
+          "desc": ""
+        },
+        {
+          "id": "software_20",
           "name": "Webpack",
           "href": "https://webpack.js.org/",
           "desc": ""
         },
         {
-          "id": "software_20",
+          "id": "software_21",
           "name": "OAth",
           "href": "https://oauth.net/2/",
           "desc": ""
@@ -442,7 +498,7 @@
           "name": "University of Central Florida",
           "location": "Florida",
           "href": "https://www.ucf.edu/",
-          "degree": "Full-Stack Web Development Bootcamp Certificate",
+          "degree": "Full-Stack Coding Bootcamp Certificate",
           "duration": "2023",
           "desc": ""
         },
@@ -468,12 +524,12 @@
         },
         {
           "id": "hobby_02",
-          "name": "Building software",
+          "name": "Building things",
           "desc": ""
         },
         {
           "id": "hobby_03",
-          "name": "Playing hockey",
+          "name": "Watching hockey",
           "desc": ""
         },
         {
@@ -483,7 +539,7 @@
         },
         {
           "id": "hobby_05",
-          "name": "Going hiking",
+          "name": "Being outdoors",
           "desc": ""
         },
         {
@@ -493,12 +549,12 @@
         },
         {
           "id": "hobby_07",
-          "name": "Reading a good book",
+          "name": "Learning new things",
           "desc": ""
         },
         {
           "id": "hobby_08",
-          "name": "Spending time with family",
+          "name": "Quality family time",
           "desc": ""
         }
       ]

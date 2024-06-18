@@ -66,7 +66,7 @@ export function Contact({ propData }: ContactProps) {
             <CustomTypography
               placeholder="Contact Items"
               variant="paragraph"
-              className="text-blue-400 hover:text-blue-600 hover:underline hover:underline-offset-4"
+              className="text-blue-400 hover:text-blue-600 hover:underline hover:underline-offset-4 xl:my-0.5"
             >
               <Link href={item.href} target="_blank">
                 {item.value}

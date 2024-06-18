@@ -42,7 +42,7 @@ export function Hobbies({ propData }: HobbyProps) {
               variant="small"
               color="black"
             >
-              {item.name}
+              &#8226; {item.name}
             </CustomTypography>
           </CustomListItem>
         ))}

@@ -16,11 +16,11 @@ export function Header({ propData }: HeadingProps) {
     <section className="p-2 lg:p-4 flex justify-between border rounded shadow-md">
       <div className="flex flex-col justify-center">
         <CustomTypography
-          variant="h3"
+          variant="h4"
           color="indigo"
           textGradient
           placeholder="Header Name"
-          className="lg:text-7xl"
+          className="md:text-6xl lg:text-7xl"
         >
           {name}
         </CustomTypography>
@@ -29,7 +29,7 @@ export function Header({ propData }: HeadingProps) {
           color="blue-gray"
           textGradient
           placeholder="Header Position"
-          className="lg:text-4xl ml-1"
+          className="md:text-3xl lg:text-4xl ml-1"
         >
           {position}
         </CustomTypography>

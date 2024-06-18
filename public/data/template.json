@@ -60,16 +60,16 @@
           "location": "City, State",
           "detailList": [
             {
-              "id": "role_01",
+              "id": "role_01_01",
               "position": "Job Title",
               "duration": "Year - Year",
               "dutyList": [
                 {
-                  "id": "duty_01",
+                  "id": "duty_01_01_01",
                   "desc": "Responsibility or achievement description."
                 },
                 {
-                  "id": "duty_02",
+                  "id": "duty_01_01_02",
                   "desc": "Responsibility or achievement description."
                 }
               ]

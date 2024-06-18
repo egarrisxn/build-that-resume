@@ -1,7 +1,7 @@
 {
   "name": "build-that-resume",
   "version": "1.0.0",
-  "description": "A resume builder using TypeScript.",
+  "description": "A typesafe resume builder.",
   "homepage": "https://build-that-resume.vercel.app/",
   "author": "Ethan G",
   "license": "MIT",
