@@ -1,10 +1,12 @@
-# Build That Resume
+# DevBuild Resume
 
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) ![GitHub repo size](https://img.shields.io/github/repo-size/egarrisxn/build-that-resume)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) ![GitHub repo size](https://img.shields.io/github/repo-size/egarrisxn/devbuild-resume)
 
 ## Description
 
-Build That Resume is a simple resume builder web application built using Next.js, TailwindCSS, Material-Tailwind, and TypeScript. It allows users to create professional resumes quickly and efficiently.
+DevBuild Resume is a simple resume builder web application built using Next.js, TailwindCSS, Material-Tailwind, and TypeScript. It allows users to create professional resumes quickly and efficiently.
+
+![devbuildresume](https://github.com/egarrisxn/devbuild-resume/assets/126130230/001443e7-6bfc-48b6-9af6-f9996bd0e740)
 
 ## Technologies Used
 
