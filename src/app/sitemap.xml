@@ -2,19 +2,31 @@
   <url>
     <loc>https://devbuild-resume.vercel.app/</loc>
     <lastmod>2023-04-06T15:02:24.021Z</lastmod>
-    <changefreq>yearly</changefreq>
+    <changefreq>monthly</changefreq>
     <priority>1</priority>
+  </url>
+    <url>
+    <loc>https://devbuild-resume.vercel.app/info-page</loc>
+    <lastmod>2023-04-06T15:02:24.021Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+    <url>
+    <loc>https://devbuild-resume.vercel.app/example-resume</loc>
+    <lastmod>2023-04-06T15:02:24.021Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>.5</priority>
   </url>
   <url>
     <loc>https://devbuild-resume.vercel.app/resume-template</loc>
     <lastmod>2023-04-06T15:02:24.021Z</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>1</priority>
+    <priority>.5</priority>
   </url>
   <url>
     <loc>https://devbuild-resume.vercel.app/final-resume</loc>
     <lastmod>2023-04-06T15:02:24.021Z</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>1</priority>
+    <priority>.5</priority>
   </url>
 </urlset>
